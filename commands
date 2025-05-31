@@ -1,0 +1,9 @@
+mkdir mypro
+cd mypro
+python -m venv env
+./env/Scripts\activate
+pip install django
+djando-admin startproject myapp
+cd myapp
+chechmage
+python manage.py runserver
